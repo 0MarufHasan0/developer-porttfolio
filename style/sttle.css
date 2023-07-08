@@ -18,6 +18,7 @@ body{
     font-size: 20px;
     font-weight: 700px;
     padding: 15px 30px;
+    
 
 }
 
@@ -26,19 +27,21 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 /* nav h3 */
 .nav-taitle{
     color: #181818;
 font-size: 45px;
-font-weight: 800;
+font-weight: 800px;
 }
 
 /* nav Ul */
 nav > ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
    }
 
 /* nav li */
@@ -52,3 +55,54 @@ nav a {
     color: #474747;
 }
 
+/*header */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 710px;
+  
+
+}
+/*bannerr */
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+   
+}
+.banner-contain{
+    max-width:500px ;
+   
+
+}
+.banner-profile{
+    width: 510px;
+}
+.banner-img{
+    margin-right: 10PX;
+}
+
+.banner-introduce{
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 0;
+  
+}
+.banner-taitle{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.btn-same{
+  margin-right:30px;
+}
+#btn-contract{
+    background-color: #FFF8F3;
+    border: 0.5px solid  #FD6E0A;
+    color: #181818;
+ 
+}
