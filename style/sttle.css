@@ -150,3 +150,52 @@ color: #474747;
 font-size: 17px;
 font-weight: 700;
 }
+#What-I-Do{
+    padding: 30px 150px ;
+}
+/*skill section */
+.skill-section{
+    display: flex;
+    gap: 24px;
+  
+}
+.skill{
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+  
+}
+/*A summary of My Resume*/
+.resume-column-tittle{
+color: #474747;
+font-size: 30px;
+font-weight: 700;
+margin-bottom:10px ;
+}
+.resune-container{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+.resume-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-institute, .resume-discription{
+    color: #757575;
+}
+.resume-tittle{
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+ 
+}
+.resune-container hr{
+    margin:30px ;
+}
+.dwonload-cv{
+    text-align: center;
+    margin-top: 20px;
+   
+}
