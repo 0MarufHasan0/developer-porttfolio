@@ -1,0 +1,54 @@
+/* shared color */
+body{
+    font-family: 'lato', sans-serif;
+    font-family: 'open sans',sans-serif ;
+
+}
+/* primary-color */
+.primary-tex{
+    color:#FD6E0A;
+}
+/* btn-primary-color */
+.btn-primary{ 
+    background: #FD6E0A; 
+    border-radius: 5px;
+    border: 0px;
+    color:white ;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 30px;
+
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav h3 */
+.nav-taitle{
+    color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+
+/* nav Ul */
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+   }
+
+/* nav li */
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+/* nav a */
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
