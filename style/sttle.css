@@ -62,7 +62,7 @@ nav a {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 710px;
-  
+
 
 }
 /*bannerr */
@@ -198,4 +198,28 @@ margin-bottom:10px ;
     text-align: center;
     margin-top: 20px;
    
+}
+/*footer style*/
+footer{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.footer-item{
+    will-change: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color:#757575;
+
+}
+#massage-box{
+    font-size: 30px;
+}
+#contact-box{
+    font-size: 30px;
 }
